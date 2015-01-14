@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/ac/workplace/demo/test'
+let g:netrw_dirhist_2='/Users/ac/.idlerc'
+let g:netrw_dirhist_3='/Users/ac/Desktop'
+let g:netrw_dirhist_4='/Users/ac'
+let g:netrw_dirhist_5='/Users/ac/.vim'
+let g:netrw_dirhist_6='/Users/ac/depot/test/controllers'
