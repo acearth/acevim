@@ -8,6 +8,7 @@
 "
 "let $VIM=/usr/local/share/vim
 "let $VIMRUNTIME=$VIM/7.4.488
+set guifont=Anonymice\ Powerline
 set encoding=utf-8
 "
 "noremap=no map recursively,in insert mode
@@ -25,7 +26,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle  " ---runtime path //maybe changed
+set rtp+=~/.vim/bundle/Vundle.vim  " ---runtime path //maybe changed
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -46,7 +47,7 @@ let g:DoxygenToolkit_briefTag_pre="@synopsis  "
 let g:DoxygenToolkit_paramTag_pre="@param "
 let g:DoxygenToolkit_returnTag="@returns   "
 let g:DoxygenToolkit_blockHeader="--------------------------------------------------------------------------"
-let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------"
+let g:DoxygenToolkit_blockFooter="--------------------------------------------------------------------------"
 let g:DoxygenToolkit_authorName="Arthur Ace(Xiaoqiang AN)"
 let g:DoxygenToolkit_licenseTag="GPL 2.0"
 
