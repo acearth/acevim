@@ -1,7 +1,7 @@
 "ignore upper/lower alphabeta case
 syntax case ignore
 
-syntax keyword txtKword NOTE END
+syntax keyword txtKword NOTE END <--
 
 highlight link txtKword Keyword
 
