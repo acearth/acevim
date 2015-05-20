@@ -15,37 +15,8 @@ set pastetoggle=<F7>
 "<C-l> redraw and clean screen
 nnoremap <C-l> :<C-u>nohlsearch<CR><C-l>
 
-
-"--for vundle::Plugin Management
-set nocompatible
-filetype off
-set runtimepath+=~/.vim/bundle/Vundle.vim
-
-call vundle#begin()
-"let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-
-Plugin 'DoxygenToolkit.vim'
-let g:DoxygenToolkit_briefTag_pre="@synopsis "
-let g:DoxygenToolkit_paramTag_pre="@param "
-let g:DoxygenToolkit_returnTag="@returns "
-let g:DoxygenToolkit_blockHeader="------------------------------"
-let g:DoxygenToolkit_blockFooter="------------------------------"
-let g:DoxygenToolkit_authorName="Arthur Ace(XQ.An)"
-let g:DoxygenToolkit_licenseTag="GPL 2.0"
-let s:licenseTag="Copyright(C)\<enter>"
-let s:licenseTag=s:licenseTag."For free\<enter>"
-let s:licenseTag=s:licenseTag."All right reserved\<enter>"
-let g:DoxygenToolkit_licenseTag=s:licenseTag
-let g:DoxygenToolkit_briefTag_funcName="yes"
-let g:doxygen_enhanced_color=1
-
-Plugin 'The-NERD-Commenter'
-let mapleader=","
-
-Plugin 'the-NERD-Tree'
-call vundle#end() 	 	"required
-filetype plugin indent on 	"required
+" load Vundle plugins settings
+source ~/.vim/vundleConfig.vim
 
 "--General Configurations--
 set number
@@ -58,14 +29,9 @@ set cursorline "show the line of cursor occupied
 set showcmd  "show command in normal mode on the right of stateLine
 
 if has("autocmd")
-	autocmd FileType python setlocal ts=4 sts=4 sw=4
-	autocmd FileType ruby setlocal ts=2 sts=2 sw=2 et "et=expand tab
 	autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noet
-	autocmd FileType c setlocal ts=4 ts=4 sw=4 noet cindent 
-	autocmd FileType cpp setlocal ts=4 sts=4 sw=4 noet cindent
 endif
-
-set foldcolumn=2
+"set foldcolumn=2
 "set foldenable "in auto fold mode, ensure it
 "set foldmethod=syntax "fold on the content of {}
 "set foldmethod=indent "fold based on indent level

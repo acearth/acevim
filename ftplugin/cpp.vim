@@ -1,1 +1,6 @@
-set foldcolumn=0
+set makeprg=g++\ -o\ %<\ %
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set noexpandtab
+set cindent
