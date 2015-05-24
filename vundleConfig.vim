@@ -7,6 +7,12 @@ call vundle#begin()
 "let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'YouCompleteMe'
+Plugin 'taglist.vim'
+
+Plugin 'javacomplete'
+
+
 Plugin 'DoxygenToolkit.vim'
 let g:DoxygenToolkit_briefTag_pre="@synopsis "
 let g:DoxygenToolkit_paramTag_pre="@param "
@@ -23,8 +29,6 @@ let g:DoxygenToolkit_briefTag_funcName="yes"
 let g:doxygen_enhanced_color=1
 
 Plugin 'The-NERD-Commenter'
-let mapleader=","
-
 Plugin 'the-NERD-Tree'
 call vundle#end() 	 	"required
 filetype plugin indent on 	"required
