@@ -1,0 +1,10 @@
+--- /Users/ac/.vimrc	2015-10-30 15:41:59.000000000 +0800
++++ /Users/ac/.vim/vimrc_main	2015-10-30 15:54:20.000000000 +0800
+@@ -27,6 +27,7 @@
+ "<C-u> move back half screen 
+ "<C-l> redraw and clean screen
+ nnoremap <C-l> :<C-u>nohlsearch<CR><C-l>
++nnoremap <F6> :se nu!<CR>
+ 
+ au BufNewFile,BufRead *.gradle setf groovy
+ if has("autocmd")

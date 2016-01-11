@@ -1,0 +1,11 @@
+--- /Users/ac/.vimrc	2015-06-13 23:34:08.000000000 +0800
++++ /Users/ac/.vim/vimrc_main	2015-06-14 23:39:53.000000000 +0800
+@@ -28,7 +28,7 @@
+ "<C-l> redraw and clean screen
+ nnoremap <C-l> :<C-u>nohlsearch<CR><C-l>
+ 
+-
++au BufNewFile,BufRead *.gradle setf groovy
+ if has("autocmd")
+ 	autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noet
+ endif

@@ -1,7 +1,0 @@
-#!/bin/sh
-
-timestamp=`date +%Y%m%d%H%M`
-mv ~/.vimrc ./history_vimrc.$timestamp
-echo "~/.vimrc has been moved to ~/.vim/history_vimrc.$timestamp"
-cp ~/.vim/_vimrc ~/.vimrc
-echo "~/.vimrc has been set."
