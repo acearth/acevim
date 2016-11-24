@@ -16,6 +16,7 @@ Plugin 'The-NERD-Commenter'
 Plugin 'The-NERD-tree'
 Plugin 'CmdlineComplete'
 Plugin 'matchit.zip'
+Plugin 'Valloric/YouCompleteMe'
 
 """ add plugins at here
 
