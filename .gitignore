@@ -2,3 +2,4 @@ history_vimrc.*
 bundle/*
 .netrwhist
 .DS_Store
+doc/tags
