@@ -1,1 +1,0 @@
-set foldcolumn=0

@@ -1,9 +1,0 @@
---- /Users/ac/.vimrc	2015-06-13 23:29:30.000000000 +0800
-+++ /Users/ac/.vim/vimrc_main	2015-06-13 23:34:02.000000000 +0800
-@@ -1,5 +1,6 @@
- " load Vundle plugins settings
- source ~/.vim/bundle/vundleConfig.vim
-+source ~/.vim/config4powerline
- set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
- 
- "--General Configurations--
