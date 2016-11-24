@@ -11,3 +11,8 @@ if !empty(glob("~/.vimrc"))
 elseif !empty(glob("~/_vimrc"))
 	call ShowConflict("~/_vimrc")
 endif
+
+
+if has("win32")
+	echo "This config may cannot works fine in Windows environment"
+endif
