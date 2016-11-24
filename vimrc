@@ -11,6 +11,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'The-NERD-Commenter'
+
 Plugin 'vim-airline/vim-airline'
 """ add plugins at here
 
