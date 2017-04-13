@@ -17,6 +17,7 @@ syntax on
 
 let mapleader=","
 function KeyMap()
+	nnoremap <F10> :NERDTree<CR>
 	nnoremap <F6> :set number!<CR>
 	set pastetoggle=<F7>
 	nnoremap <F9> :w<CR>:make<CR>
