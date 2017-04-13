@@ -1,8 +1,8 @@
 " ---*--- NOTICE ---*---
-" 1. When ~/.vimrc exists, this file will disable. 
-"    Please use this file to replace ~/.vimrc
+" 1. If ~/.vimrc exists, this file will be disabled. So you need to remove the file: ~/.vimrc
 " 2. This file will be loaded prior to other plugins
-" echo "~/.vim/vimrc"
+
+echo "VIMRC"
 
 set nocompatible              " be iMproved, required
 filetype off                  " required

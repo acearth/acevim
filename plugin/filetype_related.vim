@@ -6,7 +6,7 @@ if has("autocmd")
         autocmd FileType javascript setlocal makeprg=node\ %
         autocmd FileType python setlocal makeprg=python\ %
         autocmd FileType ruby setlocal makeprg=ruby\ %
-        autocmd FileType sh setlocal makeprg=./%
+        autocmd FileType sh setlocal makeprg=sh\ %
         autocmd FileType vim setlocal makeprg=source\ %
 endif
 
