@@ -12,6 +12,7 @@ set history=999  "history command recorded
 set showmatch  "when a bracket is inserted, briefly jump to the matching one
 set cursorline "show the line of cursor occupied
 set showcmd  "show command in normal mode on the right of stateLine
+set mouse=r "enable copying from outer selection
 
 let mapleader=","
 

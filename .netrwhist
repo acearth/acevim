@@ -1,2 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/ace/.vim'
+let g:netrw_dirhist_2='/Users/ace/.vim/plugin'
+let g:netrw_dirhist_3='/Users/ace/.vim'
+let g:netrw_dirhist_4='/Users/ace/.vim/snippets'
+let g:netrw_dirhist_5='/Users/ace/.vim'
+let g:netrw_dirhist_6='/Users/ace/.vim/syntax'
+let g:netrw_dirhist_7='/Users/ace/.vim'
